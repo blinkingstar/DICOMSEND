@@ -144,9 +144,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\storescu.exe" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\AppIcon.ico" />
   </ItemGroup>
   <ItemGroup>
