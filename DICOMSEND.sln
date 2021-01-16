@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICOMSEND", "DICOMSEND\DICOMSEND.csproj", "{72A223CF-BCC2-46E2-AE70-E5D0DA5C71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36701F3E-8427-40AC-BD1A-368FD4EC5A59}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A223CF-BCC2-46E2-AE70-E5D0DA5C71E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A223CF-BCC2-46E2-AE70-E5D0DA5C71E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A223CF-BCC2-46E2-AE70-E5D0DA5C71E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A223CF-BCC2-46E2-AE70-E5D0DA5C71E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59DC587D-0F2D-48E1-904E-13770D7B4A18}
+	EndGlobalSection
+EndGlobal

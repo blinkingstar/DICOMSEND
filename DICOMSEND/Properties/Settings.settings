@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DICOMSEND.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HostString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="PortString" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4242</Value>
+    </Setting>
+    <Setting Name="FolderPathString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\</Value>
+    </Setting>
+    <Setting Name="AECString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ANY-SCP</Value>
+    </Setting>
+    <Setting Name="AETString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">STORESCU</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
