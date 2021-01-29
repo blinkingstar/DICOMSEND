@@ -35,6 +35,11 @@ namespace DICOMSEND
         }
         private async void Upload_Click(object sender, EventArgs e)
         {
+            if (!Directory.Exists(FolderPathBox.Text))
+            {
+                MessageBox.Show("Folder doesn't exist");
+                return;
+            }
 
             UploadButton.Enabled = false;
             totalfiles = 0;
