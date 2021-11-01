@@ -65,8 +65,9 @@ namespace DICOMSEND
             tokenSource = new CancellationTokenSource();
             var cancelToken = tokenSource.Token;
 
-            string[] files = Directory.GetFiles(FolderPathBox.Text, "*", SearchOption.AllDirectories);
-            
+            // string[] files = Directory.GetFiles(FolderPathBox.Text, "*", SearchOption.AllDirectories);
+            IEnumerable<string> files = Directory.EnumerateFiles(FolderPathBox.Text, "*", SearchOption.AllDirectories);
+
             foreach (string filename in files)
             {
                 //if (count > 2)
